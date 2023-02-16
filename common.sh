@@ -13,6 +13,7 @@ STATUS_CHECK () {
   fi
 }
 
+# we are creating a function and we are sending a INPUT to the Function
 # this is a dynamic function, where values of the function are injected inside the function
 PRINT_HEAD () {
   echo $1
